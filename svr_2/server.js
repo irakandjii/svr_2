@@ -7,8 +7,8 @@
 //    res.writeHead(200, { 'Content-Type': 'text/plain' });
 //    res.end('Hello World\n');
 //}).listen(port);
-const myPort = 3000;
-
+//const myPort = 3000;
+const port = process.env.PORT || 3000;
 const fs = require('fs');
 const express = require("express");
 const hbs = require('hbs');
@@ -95,6 +95,6 @@ app.get('/bad', (req, res) => {
 });
 
 
-app.listen(myPort, () => {
-    console.log(`Your server is up on localhost: ${myPort} `)
+app.listen(port, () => {
+    console.log(`Your server is up on localhost: ${port} `)
 });
