@@ -1,0 +1,9 @@
+{
+  "name": "svr_2",
+  "version": "0.0.0",
+  "description": "svr_2",
+  "main": "server.js",
+  "author": {
+    "name": "RICHARD"
+  }
+}
