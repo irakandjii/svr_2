@@ -31,7 +31,22 @@
   <ItemGroup>
     <Compile Include="server.js" />
     <Content Include="package.json" />
+    <Content Include="public\help.html" />
+    <Content Include="public\subfolder\Page1.html" />
     <Content Include="README.md" />
+    <Content Include="views\about.hbs" />
+    <Content Include="views\help.hbs" />
+    <Content Include="views\home.hbs" />
+    <Content Include="views\maintenance.hbs" />
+    <Content Include="views\partials\footer.hbs" />
+    <Content Include="views\partials\header.hbs" />
+    <Content Include="views\work.hbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="public\subfolder\" />
+    <Folder Include="views\" />
+    <Folder Include="public\" />
+    <Folder Include="views\partials\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
